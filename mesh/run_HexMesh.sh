@@ -17,7 +17,6 @@ module load cmake/3.31.9/gcc-15.1.0
 module load boost/1.89.0/gcc-15.1.0
 module load cgal/6.0.2/intel-oneapi-compilers-2025.3.1
 
-set -Eeuo pipefail
 
 # Répertoire contenant Hexmesh.input et les fichiers de topographie
 WORKDIR="..."
